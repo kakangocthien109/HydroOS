@@ -20,6 +20,7 @@ dosfstools
 edk2-shell
 efibootmgr
 ethtool
+grub
 exfatprogs
 f2fs-tools
 fsarchiver
@@ -109,7 +110,8 @@ hwinfo
 plasma-framework
 qt5-translations
 libreoffice
-
+yay
+pamac
 # calamares.welcome
 upower
 
@@ -162,8 +164,7 @@ unrar
 unzip
 xdg-user-dirs
 xz
-teamviewer
-zoom
+fpc
 ttf-roboto
 
 # Filesystem
@@ -284,7 +285,7 @@ wvdial
 xl2tpd
 
 # Desktop
-aisleriot
+
 epdfview
 geany
 gnome-disk-utility
@@ -306,7 +307,6 @@ noto-fonts
 opendesktop-fonts
 ttf-opensans
 freetype2
-ttf-ms-fonts
 
 # Rescue
 grsync
@@ -322,6 +322,7 @@ mc
 # Xfce
 xfce4
 xfce4-goodies
+
 adapta-gtk-theme
 arc-gtk-theme
 arc-icon-theme
@@ -332,9 +333,7 @@ gtk-engine-murrine
 polkit-gnome
 transmission-gtk
 xarchiver
-etcher
-discord
-teamviewer
+
 
 # Display Manager
 lightdm
@@ -379,43 +378,7 @@ inkscape
 vlc
 mousepad
 orage
-parole
 ristretto
-thunar-archive-plugin
-thunar-media-tags-plugin
-xfburn
-xfce4-artwork
-xfce4-battery-plugin
-xfce4-clipman-plugin
-xfce4-cpufreq-plugin
-xfce4-cpugraph-plugin
-xfce4-datetime-plugin
-xfce4-dict
-xfce4-diskperf-plugin
-xfce4-eyes-plugin
-xfce4-fsguard-plugin
-xfce4-genmon-plugin
-xfce4-mailwatch-plugin
-xfce4-mount-plugin
-xfce4-mpc-plugin
-xfce4-netload-plugin
-xfce4-notes-plugin
-xfce4-notifyd
-xfce4-pulseaudio-plugin
-#xfce4-screensaver
-xfce4-screenshooter
-xfce4-sensors-plugin
-xfce4-smartbookmark-plugin
-xfce4-systemload-plugin
-xfce4-taskmanager
-xfce4-time-out-plugin
-xfce4-timer-plugin
-xfce4-verve-plugin
-xfce4-wavelan-plugin
-xfce4-whiskermenu-plugin
-xfce4-xkb-plugin
-
-
 upower
 kcoreaddons
 kconfig
@@ -429,10 +392,6 @@ squashfs-tools
 plasma-framework
 hwinfo
 qt5-xmlpatterns
-adobe-source-han-sans-jp-fonts
-adobe-source-han-sans-kr-fonts
-adobe-source-han-sans-cn-fonts###fonts
-adobe-source-sans-pro-fonts
 awesome-terminal-fonts
 noto-fonts
 ttf-bitstream-vera
@@ -459,22 +418,13 @@ kvantum-qt5
 arandr
 asciinema
 bash-completion
-baobab
-catfish
 cronie
 dconf-editor
-dex
 dmidecode
-evince
-expac
-file-roller
 filezilla
 git
-gksu
-#glances
 gnome-disk-utility
 gnome-keyring
-gnome-screenshot
 gnome-software
 gnome-software-packagekit-plugin
 gparted
@@ -489,45 +439,24 @@ iw
 jsoncpp
 libmtp
 laptop-detect
-mlocate
-nomacs
-oh-my-zsh-git
 p7zip
-plank
-playerctl
 polkit
 polkit-gnome
 python2-dbus
 python2-xdg
-qt4
 qt5ct
 qt5-tools
 qt5-webkit
-#powertop
-#redshift
-rofi
 rxvt-unicode
 simple-scan
-#shotwell
+shotwell
 speedtest-cli
-timeshift
-#tlp
-tree
-ufw
-gufw
 unace
 unrar
 unzip
-#vnstat
-w3m
 webkit2gtk
-wmctrl
-xapps
-xdo
-xdotool
 xdg-desktop-portal-gtk
 youtube-dl
 zenity
 zsh
 zsh-completions
-zsh-syntax-highlighting

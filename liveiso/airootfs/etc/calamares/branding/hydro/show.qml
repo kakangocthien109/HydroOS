@@ -52,18 +52,6 @@ Presentation
     Slide {
 
         Image {
-            id: background2
-            source: "hydro1.png"
-            width: 800; height: 350
-            fillMode: Image.PreserveAspectFit
-			anchors.centerIn: parent
-        }
-
-    }
-
-    Slide {
-
-        Image {
             id: background3
             source: "hydro2.png"
             width: 800; height: 350
