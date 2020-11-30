@@ -9,10 +9,10 @@ set -e -u
 
 sed -i 's/#\(vi_VN\.UTF-8\)/\1/' /etc/locale.gen
 
-echo "LANG=vi_VN.UTF-8" >> /etc/locale.conf
-echo "LANGUAGE=vi_VN.UTF-8" >> /etc/locale.conf
-echo "LC_COLLATE=C" >> /etc/locale.conf
-echo "LC_ALL=C" 
+echo "LANG=vi_VN.UTF-8" > /etc/locale.conf
+echo "LANGUAGE=vi_VN.UTF-8" > /etc/locale.conf
+echo "LC_COLLATE=C" > /etc/locale.conf
+echo "LC_ALL=C" > /etc/locale.conf
 locale-gen
 
 # virtual console
@@ -45,8 +45,12 @@ sed -i 's/#\(HandleLidSwitch=\)suspend/\1ignore/' /etc/systemd/logind.conf
 
 
 systemctl enable pacman-init.service choose-mirror.service
-systemctl set-default multi-user.target
 systemctl enable lightdm.service
+echo "/usr/bin/lightdm" > /etc/X11/default-display-manager
+systemctl set-default graphical.target
+ln -s /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+ln -s /usr/lib/systemd/system/lightdm.service /etc/systemd/system/display-manager.service
+rm -r /etc/systemd/system/getty@tty1.service.d/autologin.conf
 systemctl enable NetworkManager.service
 
 passwd root
@@ -62,6 +66,4 @@ chown -R liveuser:users /home/liveuser
 pacman -Sy
 pacman-key --init
 pacman-key --populate archlinux
-ibus-daemon -drx
-ibus-setup
 kodepas setup
