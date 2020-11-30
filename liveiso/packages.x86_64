@@ -110,8 +110,6 @@ hwinfo
 plasma-framework
 qt5-translations
 libreoffice
-yay
-pamac
 # calamares.welcome
 upower
 
@@ -122,6 +120,9 @@ ki18n
 kpmcore
 kservice
 kwidgetsaddons
+gimp 
+discord 
+zoom
 
 # calamares.others
 dmidecode
@@ -460,3 +461,8 @@ youtube-dl
 zenity
 zsh
 zsh-completions
+wine
+winecfg
+zip
+unrar
+

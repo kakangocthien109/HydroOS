@@ -30,10 +30,7 @@ cp -aT /etc/skel/ /root
 chmod 700 /root
 
 useradd -m -p "" -g users -G "adm,audio,floppy,log,network,rfkill,scanner,storage,optical,power,wheel" -s /bin/zsh liveuser
-usermod -G "adm,audio,video,floppy,log,network,rfkill,scanner,storage,optical,power,wheel" liveuser
-
-chmod 440 /etc/sudoers.d/g_wheel
-
+usermod -a  -G "adm,audio,video,floppy,log,network,rfkill,scanner,storage,optical,power,wheel" liveuser
 
 
 
@@ -65,6 +62,6 @@ chown -R liveuser:users /home/liveuser
 pacman -Sy
 pacman-key --init
 pacman-key --populate archlinux
-
-
-
+ibus-daemon -drx
+ibus-setup
+kodepas setup
