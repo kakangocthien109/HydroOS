@@ -2,8 +2,8 @@
 4.10.3+=true
 
 [/home/liveuser/Desktop/calamares.desktop]
-row=3
-col=0
+row=1
+col=1
 
 [Trash]
 row=0
@@ -14,6 +14,9 @@ row=1
 col=0
 
 [/home/liveuser]
-row=2
+row=4
 col=0
 
+[/usr/share/applications/calamares.desktop]
+row=3
+col=1

@@ -1,0 +1,15 @@
+[Desktop Entry]
+Type=Application
+Version=1.1
+Name=HydroOS Installer 
+GenericName=System Installer
+Keywords=calamares;system;installer;
+TryExec=calamares
+Exec=pkexec /usr/bin/calamares
+Comment=HydroOS  — System Installer
+Icon=calamares
+Terminal=false
+StartupNotify=true
+Categories=Qt;System;
+X-AppStream-Ignore=true
+X-XFCE-Source=file:///usr/share/applications/calamares.desktop

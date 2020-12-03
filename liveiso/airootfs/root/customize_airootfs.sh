@@ -46,9 +46,8 @@ sed -i 's/#\(HandleLidSwitch=\)suspend/\1ignore/' /etc/systemd/logind.conf
 
 systemctl enable pacman-init.service choose-mirror.service
 systemctl enable lightdm.service
-echo "/usr/bin/lightdm" > /etc/X11/default-display-manager
 systemctl set-default graphical.target
-ln -s /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
 ln -s /usr/lib/systemd/system/lightdm.service /etc/systemd/system/display-manager.service
 rm -r /etc/systemd/system/getty@tty1.service.d/autologin.conf
 systemctl enable NetworkManager.service
