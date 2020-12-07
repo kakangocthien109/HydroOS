@@ -217,7 +217,6 @@ pulseaudio-alsa
 pulseaudio-bluetooth
 pulseaudio-equalizer
 pulseaudio-jack
-quodlibet
 simplescreenrecorder
 sox
 transcode
@@ -373,7 +372,7 @@ xfwm4-themes
 # https://www.archlinux.org/groups/x86_64/xfce4-goodies/
 audacity
 fpc
-inkscape
+gimp
 vlc
 ristretto
 upower
