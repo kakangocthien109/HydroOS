@@ -19,12 +19,11 @@ locale-gen
 echo "KEYMAP=us" > /etc/vconsole.conf
 
 # Time and clock
-ln -sf /usr/share/zoneinfo/UTC /etc/localtime
+timedatectl set-timezone Asia/Ho_Chi_Minh
+ln -sf /usr/share/zoneinfo/Asia/Ho_Chi_Minh  /etc/localtime
 hwclock --systohc --utc
 
 sed -i "s/#Server/Server/g" /etc/pacman.d/mirrorlist
-ln -sf /usr/share/zoneinfo/UTC /etc/localtime
-
 usermod -s /usr/bin/zsh root
 cp -aT /etc/skel/ /root
 chmod 700 /root
@@ -47,8 +46,7 @@ sed -i 's/#\(HandleLidSwitch=\)suspend/\1ignore/' /etc/systemd/logind.conf
 systemctl enable pacman-init.service choose-mirror.service
 systemctl enable lightdm.service
 systemctl set-default graphical.target
-
-ln -s /usr/lib/systemd/system/lightdm.service /etc/systemd/system/display-manager.service
+systemctl enable org.cups.cupsd.service
 rm -r /etc/systemd/system/getty@tty1.service.d/autologin.conf
 systemctl enable NetworkManager.service
 
@@ -65,4 +63,7 @@ chown -R liveuser:users /home/liveuser
 pacman -Sy
 pacman-key --init
 pacman-key --populate archlinux
+ibus restart
+ibus-daemon -drx
+usermod -a -G input $USER
 kodepas setup

@@ -375,8 +375,6 @@ audacity
 fpc
 inkscape
 vlc
-mousepad
-orage
 ristretto
 upower
 kcoreaddons
@@ -422,7 +420,6 @@ dconf-editor
 dmidecode
 filezilla
 git
-gnome-disk-utility
 gnome-keyring
 gnome-software
 gnome-software-packagekit-plugin
@@ -435,9 +432,15 @@ htop
 grsync
 intltool
 iw
+cups
+cups-pdf
+
 jsoncpp
 libmtp
 laptop-detect
+hplip 
+libcups 
+system-config-printer
 p7zip
 polkit
 polkit-gnome
@@ -448,7 +451,6 @@ qt5-tools
 qt5-webkit
 rxvt-unicode
 simple-scan
-shotwell
 speedtest-cli
 unace
 unrar
@@ -460,6 +462,7 @@ zenity
 zsh
 zsh-completions
 wine
+wintricks
 zip
 unrar
 

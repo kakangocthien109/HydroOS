@@ -49,7 +49,7 @@ add_library(Calamares::calamares SHARED IMPORTED)
 
 set_target_properties(Calamares::calamares PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "/usr/include/libcalamares"
-  INTERFACE_LINK_LIBRARIES "Qt5::Core;KF5::CoreAddons;Qt5::Network;Qt5::Xml"
+  INTERFACE_LINK_LIBRARIES "yamlcpp;Qt5::Core;KF5::CoreAddons;Qt5::Network;Qt5::Xml"
 )
 
 # Create imported target Calamares::calamaresui
