@@ -133,8 +133,6 @@ qt5-xmlpatterns
 solid
 
 # Calamares
-mkinitcpio-openswap
-
 
 
 # System
@@ -169,6 +167,8 @@ unzip
 xdg-user-dirs
 xz
 fpc
+libreoffice
+bleachbit
 ttf-roboto
 
 # Filesystem
@@ -464,11 +464,10 @@ ghostscript
 gsfonts
 gtk3-print-backends
 gutenprint
-libcupsblueberry
+
 
 ###video
 xorg-drivers
-xorg-drivers includes
 xf86-input-elographics
 xf86-input-evdev
 xf86-input-libinput
