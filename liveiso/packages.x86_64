@@ -1,5 +1,6 @@
 #
 # SPDX-License-Identifier: GPL-3.0-or-later
+alsa-utils
 spotify
 amd-ucode
 arch-install-scripts
@@ -96,7 +97,6 @@ wvdial
 xfsprogs
 xl2tpd
 zsh
-
 # calamares.dependencies
 boost
 cmake
@@ -110,7 +110,7 @@ yaml-cpp
 hwinfo
 plasma-framework
 qt5-translations
-libreoffice
+
 # calamares.welcome
 upower
 
@@ -131,6 +131,11 @@ python
 qt5-tools
 qt5-xmlpatterns
 solid
+
+# Calamares
+mkinitcpio-openswap
+
+
 
 # System
 archiso
@@ -238,12 +243,12 @@ xterm
 
 # Networking
 avahi
+opera
 b43-fwcutter
 curl
 dnsmasq
 dnsutils
 ethtool
-filezilla
 firefox
 gnome-nettool
 gnu-netcat
@@ -306,20 +311,7 @@ opendesktop-fonts
 ttf-opensans
 freetype2
 
-# Rescue
-grsync
-ddrescue
-dd_rescue
-testdisk
-clonezilla
-partclone
-partimage
-fsarchiver
-mc
-
 # Xfce
-xfce4
-xfce4-goodies
 
 adapta-gtk-theme
 arc-gtk-theme
@@ -331,6 +323,7 @@ gtk-engine-murrine
 polkit-gnome
 transmission-gtk
 xarchiver
+screenfetch
 
 
 # Display Manager
@@ -346,6 +339,7 @@ git
 wget
 base
 base-devel
+
 ###########################################################################
 #                                XFCE
 ###########################################################################
@@ -354,6 +348,7 @@ base-devel
 # https://www.archlinux.org/groups/x86_64/xfce4/
 exo
 garcon
+xfce4-whiskermenu-plugin
 thunar
 thunar-volman
 tumbler
@@ -368,24 +363,13 @@ xfdesktop
 xfwm4
 xfwm4-themes
 
+
 ### xfce4-goodies group content
-# https://www.archlinux.org/groups/x86_64/xfce4-goodies/
 audacity
 fpc
 gimp
 vlc
 ristretto
-upower
-kcoreaddons
-kconfig
-ki18n
-kservice
-kwidgetsaddons
-kpmcore
-boost-libs
-libpwquality
-squashfs-tools
-plasma-framework
 hwinfo
 qt5-xmlpatterns
 awesome-terminal-fonts
@@ -399,15 +383,50 @@ ttf-liberation
 ttf-roboto
 ttf-ubuntu-font-family
 
+
 ###icons
 arc-icon-theme
 gnome-icon-theme
 papirus-icon-theme
 
-###themes
+###themesthunar-archive-plugin
+thunar-media-tags-plugin
+xfburn
+xfce4-artwork
+xfce4-battery-plugin
+xfce4-clipman-plugin
+xfce4-cpufreq-plugin
+xfce4-cpugraph-plugin
+xfce4-datetime-plugin
+xfce4-dict
+xfce4-diskperf-plugin
+xfce4-eyes-plugin
+xfce4-fsguard-plugin
+xfce4-genmon-plugin
+xfce4-mailwatch-plugin
+xfce4-mount-plugin
+xfce4-mpc-plugin
+xfce4-netload-plugin
+xfce4-notes-plugin
+xfce4-notifyd
+xfce4-pulseaudio-plugin
+xfce4-screensaver
+xfce4-screenshooter
+xfce4-sensors-plugin
+xfce4-smartbookmark-plugin
+xfce4-systemload-plugin
+xfce4-taskmanager
+xfce4-time-out-plugin
+xfce4-timer-plugin
+xfce4-verve-plugin
+xfce4-wavelan-plugin
+xfce4-weather-plugin
+xfce4-whiskermenu-plugin
+xfce4-xkb-plugin
 adapta-gtk-theme
 arc-gtk-theme
-kvantum-qt5
+
+
 
 
 ###utilities
@@ -415,53 +434,71 @@ arandr
 asciinema
 bash-completion
 cronie
-dconf-editor
 dmidecode
-filezilla
 git
+flatpak
 gnome-keyring
-gnome-software
-gnome-software-packagekit-plugin
 gparted
-gpick
 gtop
 hardinfo
 hddtemp
 htop
 grsync
-intltool
-iw
 cups
 cups-pdf
-
 jsoncpp
-libmtp
-laptop-detect
-hplip 
-libcups 
 system-config-printer
-p7zip
 polkit
 polkit-gnome
-python2-dbus
-python2-xdg
-qt5ct
-qt5-tools
-qt5-webkit
-rxvt-unicode
-simple-scan
-speedtest-cli
-unace
 unrar
 unzip
-webkit2gtk
-xdg-desktop-portal-gtk
 youtube-dl
 zenity
 zsh
 zsh-completions
-wine
-wintricks
 zip
+cups-filters
+cups-pdf
+cups-pk-helper
+ghostscript
+gsfonts
+gtk3-print-backends
+gutenprint
+libcupsblueberry
+
+###video
+xorg-drivers
+xorg-drivers includes
+xf86-input-elographics
+xf86-input-evdev
+xf86-input-libinput
+#xf86-input-synaptics
+xf86-input-vmmouse
+xf86-input-void
+xf86-video-amdgpu
+xf86-video-ati
+#xf86-video-dummy
+xf86-video-fbdev
+xf86-video-intel
+xf86-video-nouveau
+xf86-video-openchrome
+#xf86-video-qxl
+xf86-video-vesa
+xf86-video-vmware
+#xf86-video-voodoo
+#xf86-video-sisusb
+mesa
+
+bluez
+bluez-libs
+bluez-utils
+#bluez-firmware
+pulseaudio-bluetooth
+
+#hplip
+splix
+system-config-printer
 unrar
+chromium
+
 

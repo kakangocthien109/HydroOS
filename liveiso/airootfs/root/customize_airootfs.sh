@@ -28,7 +28,7 @@ usermod -s /usr/bin/zsh root
 cp -aT /etc/skel/ /root
 chmod 700 /root
 
-useradd -m -p "" -g users -G "adm,audio,floppy,log,network,rfkill,scanner,storage,optical,power,wheel" -s /bin/zsh liveuser
+useradd -m -p -u  500  -g users -G "adm,audio,floppy,log,network,rfkill,scanner,storage,optical,power,wheel" -s /bin/zsh liveuser
 usermod -a  -G "adm,audio,video,floppy,log,network,rfkill,scanner,storage,optical,power,wheel" liveuser
 
 
@@ -46,7 +46,7 @@ sed -i 's/#\(HandleLidSwitch=\)suspend/\1ignore/' /etc/systemd/logind.conf
 systemctl enable pacman-init.service choose-mirror.service
 systemctl enable lightdm.service
 systemctl set-default graphical.target
-systemctl enable org.cups.cupsd.service
+systemctl enable bluetooth.service
 rm -r /etc/systemd/system/getty@tty1.service.d/autologin.conf
 systemctl enable NetworkManager.service
 
@@ -60,10 +60,11 @@ chown -R liveuser:users /home/liveuser/.config
 chown -R liveuser:users /home/liveuser
 
 
+
 pacman -Sy
+reflector --threads 50 -l 100 -f 100 --number 20 --sort rate --save /etc/pacman.d/mirrorlist
+pacman -Sc --noconfirm
+pacman -Syyu --noconfirm
 pacman-key --init
 pacman-key --populate archlinux
-ibus restart
-ibus-daemon -drx
-usermod -a -G input $USER
 kodepas setup

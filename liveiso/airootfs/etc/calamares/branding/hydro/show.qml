@@ -1,19 +1,11 @@
-﻿/* === This file is part of Calamares - <http://github.com/calamares> ===
+/* === This file is part of Calamares - <https://calamares.io> ===
  *
- *   Copyright 2015, Teo Mrnjavac <teo@kde.org>
+ *   SPDX-FileCopyrightText: 2015 Teo Mrnjavac <teo@kde.org>
+ *   SPDX-FileCopyrightText: 2018 Adriaan de Groot <groot@kde.org>
+ *   SPDX-License-Identifier: GPL-3.0-or-later
  *
- *   Calamares is free software: you can redistribute it and/or modify
- *   it under the terms of the GNU General Public License as published by
- *   the Free Software Foundation, either version 3 of the License, or
- *   (at your option) any later version.
+ *   Calamares is Free Software: see the License-Identifier above.
  *
- *   Calamares is distributed in the hope that it will be useful,
- *   but WITHOUT ANY WARRANTY; without even the implied warranty of
- *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
- *   GNU General Public License for more details.
- *
- *   You should have received a copy of the GNU General Public License
- *   along with Calamares. If not, see <http://www.gnu.org/licenses/>.
  */
 
 import QtQuick 2.0;
@@ -22,52 +14,177 @@ import calamares.slideshow 1.0;
 Presentation
 {
     id: presentation
-
-    function nextSlide() {
-        console.log("QML Component (default slideshow) Next slide");
-        presentation.goToNextSlide();
-    }
-
-    Timer {
+Timer {
         id: advanceTimer
-        interval: 5000
-        running: presentation.activatedInCalamares
+        interval: 30000
+        running: true
         repeat: true
-        onTriggered: nextSlide()
+        onTriggered: presentation.goToNextSlide()
     }
 
     Slide {
+        anchors.fill: parent
+        anchors.verticalCenterOffset: 0
+
 
         Image {
             id: background1
-            source: "hydro.png"
-            width: 800; height: 350
-            fillMode: Image.PreserveAspectFit
-			      anchors.centerIn: parent
-        }
+            source: "slide1.png"
+            width: parent.width; height: parent.height          
+            horizontalAlignment: Image.AlignCenter
+    		verticalAlignment: Image.AlignTop
 
+            anchors.fill: parent
+
+            Text {
+                anchors.centerIn: parent
+                anchors.verticalCenterOffset: 165
+                anchors.horizontalCenterOffset: 0
+                font.pixelSize: parent.width *.016
+                color: 'white'
+                text: qsTr("<b>Welcome to HydroOS, an arch-based rolling distribution<br/>")
+                wrapMode: Text.WordWrap
+                width: parent.width / 1.4
+                horizontalAlignment: Text.AlignHCenter
+            }
+        }
     }
 
-
     Slide {
+        anchors.fill: parent
+        anchors.verticalCenterOffset: 0
+
+        Image {
+            id: background2
+            source: "slide1.png"
+            width: parent.width; height: parent.height          
+            horizontalAlignment: Image.AlignCenter
+    		verticalAlignment: Image.AlignTop
+
+            anchors.fill: parent
+
+            Text {
+                anchors.centerIn: parent
+                anchors.verticalCenterOffset: 163
+                anchors.horizontalCenterOffset: 0
+                font.pixelSize: parent.width *.016
+                color: 'white'
+                text: qsTr("<b>HydroOS is 100% compatible with Arch Linux<br/>")
+                
+                wrapMode: Text.WordWrap
+                width: parent.width / 1.4
+                horizontalAlignment: Text.AlignHCenter
+            }
+        }
+    }
+
+	Slide {
+        anchors.fill: parent
+        anchors.verticalCenterOffset: 0
 
         Image {
             id: background3
-            source: "hydro2.png"
-            width: 800; height: 350
-            fillMode: Image.PreserveAspectFit
-			anchors.centerIn: parent
+		source: slide1.png
+            width: parent.width; height: parent.height          
+            horizontalAlignment: Image.AlignCenter
+    		verticalAlignment: Image.AlignTop
+
+            anchors.fill: parent
+
+            Text {
+                anchors.centerIn: parent
+                anchors.verticalCenterOffset: 165
+                anchors.horizontalCenterOffset: 0
+                font.pixelSize: parent.width *.016
+                color: 'white'
+                text: qsTr("<b>Open Ibus preferences and set Unikey method<br/>")
+                wrapMode: Text.WordWrap
+                width: parent.width / 1.4
+                horizontalAlignment: Text.AlignHCenter
+            }
         }
-}
-
-
-function onActivate() {
-          console.log("QML Component (default slideshow) activated");
-          presentation.currentSlide = 0;
     }
 
-    function onLeave() {
-          console.log("QML Component (default slideshow) deactivated");
+    Slide {
+        anchors.fill: parent
+        anchors.verticalCenterOffset: 0
+
+        Image {
+            id: background4
+		source: slide1.png
+            width: parent.width; height: parent.height
+            horizontalAlignment: Image.AlignCenter
+    		verticalAlignment: Image.AlignTop
+    		
+            anchors.fill: parent
+
+            Text {
+                anchors.centerIn: parent
+                anchors.verticalCenterOffset: 165
+                anchors.horizontalCenterOffset: 0
+                font.pixelSize: parent.width *.016
+                color: 'white'
+                text: qsTr("<b>Thank you for trying HydroOS<br/>")
+                wrapMode: Text.WordWrap
+                width: parent.width / 1.4
+                horizontalAlignment: Text.AlignHCenter
+            }
+        }
+    }
+Slide {
+        anchors.fill: parent
+        anchors.verticalCenterOffset: 0
+
+        Image {
+            id: background5
+		source: slide1.png
+            width: parent.width; height: parent.height
+            horizontalAlignment: Image.AlignCenter
+    		verticalAlignment: Image.AlignTop
+    		
+            anchors.fill: parent
+
+            Text {
+                anchors.centerIn: parent
+                anchors.verticalCenterOffset: 165
+                anchors.horizontalCenterOffset: 0
+                font.pixelSize: parent.width *.016
+                color: 'white'
+                text: qsTr("<b>Integrate with Kode project<br/>")
+                wrapMode: Text.WordWrap
+                width: parent.width / 1.4
+                horizontalAlignment: Text.AlignHCenter
+            }
+        }
+    }
+Slide {
+        anchors.fill: parent
+        anchors.verticalCenterOffset: 0
+
+        Image {
+            id: background6
+		source: slide1.png
+            width: parent.width; height: parent.height
+            horizontalAlignment: Image.AlignCenter
+    		verticalAlignment: Image.AlignTop
+    		
+            anchors.fill: parent
+
+            Text {
+                anchors.centerIn: parent
+                anchors.verticalCenterOffset: 165
+                anchors.horizontalCenterOffset: 0
+                font.pixelSize: parent.width *.016
+                color: 'white'
+                text: qsTr("<b>Support for Kode developer<br/>")
+                wrapMode: Text.WordWrap
+                width: parent.width / 1.4
+                horizontalAlignment: Text.AlignHCenter
+            }
+        }
     }
 
+
+    Component.onCompleted: advanceTimer.running = true
 }
+    

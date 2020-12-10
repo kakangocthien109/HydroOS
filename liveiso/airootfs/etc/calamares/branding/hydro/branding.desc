@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: no
+# SPDX-License-Identifier: CC0-1.0
+#
 # Product branding information. This influences some global
 # user-visible aspects of Calamares, such as the product
 # name, window behavior, and the slideshow during installation.
@@ -6,6 +9,12 @@
 # file, also in the branding directory.
 ---
 componentName:  hydro
+
+
+### WELCOME / OVERALL WORDING
+#
+# These settings affect some overall phrasing and looks,
+# which are most visible in the welcome page.
 
 # This selects between different welcome texts. When false, uses
 # the traditional "Welcome to the %1 installer.", and when true,
@@ -19,6 +28,12 @@ welcomeStyleCalamares:   false
 # with the window but remains the same size throughout (this
 # may have surprising effects on HiDPI monitors).
 welcomeExpandingLogo:   true
+
+### WINDOW CONFIGURATION
+#
+# The settings here affect the placement of the Calamares
+# window through hints to the window manager and initial
+# sizing of the Calamares window.
 
 # Size and expansion policy for Calamares.
 #  - "normal" or unset, expand as needed, use *windowSize*
@@ -40,6 +55,14 @@ windowSize: 1100px,650px
 # manager in use (and only makes sense if you're not using
 # *windowExpanding* set to "fullscreen").
 windowPlacement: center
+
+### PANELS CONFIGURATION
+#
+# Calamares has a main content area, and two panels (navigation
+# and progress / sidebar). The panels can be controlled individually,
+# or switched off. If both panels are switched off, the layout of
+# the main content area loses its margins, on the assumption that
+# you're doing something special.
 
 # Kind of sidebar (panel on the left, showing progress).
 #  - "widget" or unset, use traditional sidebar (logo, items)
@@ -65,6 +88,12 @@ sidebar: widget
 # from the kind. The same sides are valid as for *sidebar*,
 # except the default is *bottom*.
 navigation: widget
+
+
+### STRINGS, IMAGES AND COLORS
+#
+# This section contains the "branding proper" of names
+# and images, rather than global-look settings.
 
 # These are strings shown to the user in the user interface.
 # There is no provision for translating them -- since they
@@ -92,13 +121,18 @@ navigation: widget
 # are visible as buttons there if the corresponding *show* keys
 # are set to "true" (they can also be overridden).
 strings:
-    productName:         "@{NAME}"
-    shortProductName:    HydroOS 
-    version:             HydroOS 
-    shortVersion:        HydroOS 
+    productName:         "HydroOS"
+    shortProductName:    HydroOS
+    version:             1.1
+    shortVersion:        1.1
     versionedName:       HydroOS
-    shortVersionedName:  HydroOS 
-    bootloaderEntryName: HydroOS 
+    shortVersionedName:  HydroOS
+    bootloaderEntryName: HydroOS
+    productUrl:          https://github.com/kodestudio/HydroOS/issues
+    supportUrl:          
+    knownIssuesUrl:      
+    releaseNotesUrl:     
+    donateUrl:           
 
 # These images are loaded from the branding module directory.
 #
@@ -128,13 +162,34 @@ strings:
 #
 # These filenames can also use substitutions from os-release (see above).
 images:
-    productIcon:         "squid.png"
+    # productBanner:       "banner.png"
+    productIcon:         "logo.png"
     productLogo:         "logo.png"
+    # productWallpaper:    "wallpaper.png"
     productWelcome:      "languages.png"
 
+# Colors for text and background components.
+#
+#  - sidebarBackground is the background of the sidebar
+#  - sidebarText is the (foreground) text color
+#  - sidebarTextHighlight sets the background of the selected (current) step.
+#    Optional, and defaults to the application palette.
+#  - sidebarSelect is the text color of the selected step.
+#
+# These colors can **also** be set through the stylesheet, if the
+# branding component also ships a stylesheet.qss. Then they are
+# the corresponding CSS attributes of #sidebarApp.
+style:
+   sidebarBackground:    "#292F34"
+   sidebarText:          "#FFFFFF"
+   sidebarTextSelect:    "#292F34"
+   sidebarTextHighlight: "#D35400"
+
+### SLIDESHOW
+#
 # The slideshow is displayed during execution steps (e.g. when the
 # installer is actually writing to disk and doing other slow things).
-#
+
 # The slideshow can be a QML file (recommended) which can display
 # arbitrary things -- text, images, animations, or even play a game --
 # during the execution step. The QML **is** abruptly stopped when the
@@ -145,7 +200,7 @@ images:
 # at a rate of 1 every 2 seconds during the execution step.
 #
 # To configure a QML file, list a single filename:
-# slideshow:               "show.qml"
+#   slideshow:               "show.qml"
 # To configure images, like the filenames (here, as an inline list):
 #   slideshow: [ "/etc/calamares/slideshow/0.png", "/etc/logo.png" ]
 slideshow:               "show.qml"
@@ -164,19 +219,3 @@ slideshow:               "show.qml"
 slideshowAPI: 2
 
 
-# Colors for text and background components.
-#
-#  - sidebarBackground is the background of the sidebar
-#  - sidebarText is the (foreground) text color
-#  - sidebarTextHighlight sets the background of the selected (current) step.
-#    Optional, and defaults to the application palette.
-#  - sidebarSelect is the text color of the selected step.
-#
-# These colors can **also** be set through the stylesheet, if the
-# branding component also ships a stylesheet.qss. Then they are
-# the corresponding CSS attributes of #sidebarApp.
-style:
-   sidebarBackground:    "#353945"
-   sidebarText:          "#ECEDEE"
-   sidebarTextSelect:    "#FFFFFF"
-   sidebarTextHighlight: "#D35400"
