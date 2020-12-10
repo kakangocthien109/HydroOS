@@ -62,7 +62,6 @@ chown -R liveuser:users /home/liveuser
 
 
 pacman -Sy
-reflector --threads 50 -l 100 -f 100 --number 20 --sort rate --save /etc/pacman.d/mirrorlist
 pacman -Sc --noconfirm
 pacman -Syyu --noconfirm
 pacman-key --init
