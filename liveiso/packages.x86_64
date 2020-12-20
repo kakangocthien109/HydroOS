@@ -167,7 +167,7 @@ unzip
 xdg-user-dirs
 xz
 fpc
-libreoffice
+libreoffice-fresh
 bleachbit
 ttf-roboto
 
@@ -243,7 +243,6 @@ xterm
 
 # Networking
 avahi
-opera
 b43-fwcutter
 curl
 dnsmasq

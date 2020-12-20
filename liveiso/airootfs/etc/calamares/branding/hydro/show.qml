@@ -84,7 +84,7 @@ Timer {
 
         Image {
             id: background3
-		source: slide1.png
+	    source: "slide1.png"
             width: parent.width; height: parent.height          
             horizontalAlignment: Image.AlignCenter
     		verticalAlignment: Image.AlignTop
@@ -111,7 +111,7 @@ Timer {
 
         Image {
             id: background4
-		source: slide1.png
+	    source: "slide1.png"
             width: parent.width; height: parent.height
             horizontalAlignment: Image.AlignCenter
     		verticalAlignment: Image.AlignTop
@@ -137,7 +137,7 @@ Slide {
 
         Image {
             id: background5
-		source: slide1.png
+	    source: "slide1.png"
             width: parent.width; height: parent.height
             horizontalAlignment: Image.AlignCenter
     		verticalAlignment: Image.AlignTop
@@ -163,7 +163,7 @@ Slide {
 
         Image {
             id: background6
-		source: slide1.png
+	    source: "slide1.png"
             width: parent.width; height: parent.height
             horizontalAlignment: Image.AlignCenter
     		verticalAlignment: Image.AlignTop
