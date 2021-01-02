@@ -1,12 +1,12 @@
 #
 # SPDX-License-Identifier: GPL-3.0-or-later
 alsa-utils
-spotify
 amd-ucode
 arch-install-scripts
 b43-fwcutter
 base
 bind-tools
+brltty
 broadcom-wl
 btrfs-progs
 clonezilla
@@ -21,12 +21,14 @@ dnsmasq
 dosfstools
 edk2-shell
 efibootmgr
+espeakup
 ethtool
-grub
 exfatprogs
 f2fs-tools
+fatresize
 fsarchiver
 gnu-netcat
+gpart
 gpm
 gptfdisk
 grml-zsh-config
@@ -43,6 +45,7 @@ lftp
 linux
 linux-atm
 linux-firmware
+livecd-sounds
 lsscsi
 lvm2
 lynx
@@ -79,6 +82,7 @@ rxvt-unicode-terminfo
 sdparm
 sg3_utils
 smartmontools
+squashfs-tools
 sudo
 syslinux
 systemd-resolvconf
@@ -86,18 +90,9 @@ tcpdump
 terminus-font
 termite-terminfo
 testdisk
-usb_modeswitch
-usbutils
-vim
-vpnc
-wireless-regdb
-wireless_tools
-wpa_supplicant
-wvdial
-xfsprogs
-xl2tpd
-zsh
-# calamares.dependencies
+tmux
+udftools
+usb_modeswitch# calamares.dependencies
 boost
 cmake
 extra-cmake-modules
@@ -388,8 +383,13 @@ arc-icon-theme
 gnome-icon-theme
 papirus-icon-theme
 
-###themesthunar-archive-plugin
-thunar-media-tags-plugin
+###themes
+thunar-archive-plugin
+thunar-media-tags-plugin 	
+thunar-volman
+thunar
+
+
 xfburn
 xfce4-artwork
 xfce4-battery-plugin
@@ -399,6 +399,7 @@ xfce4-cpugraph-plugin
 xfce4-datetime-plugin
 xfce4-dict
 xfce4-diskperf-plugin
+thunar-archive-plugin
 xfce4-eyes-plugin
 xfce4-fsguard-plugin
 xfce4-genmon-plugin
@@ -425,6 +426,7 @@ xfce4-whiskermenu-plugin
 xfce4-xkb-plugin
 adapta-gtk-theme
 arc-gtk-theme
+
 
 
 
@@ -499,5 +501,17 @@ splix
 system-config-printer
 unrar
 chromium
+usbutils
+vim
+vpnc
+wireless-regdb
+wireless_tools
+wpa_supplicant
+wvdial
+xfsprogs
+xl2tpd
+zsh
+spotify
+
 
 
