@@ -384,8 +384,7 @@ gnome-icon-theme
 papirus-icon-theme
 
 ###themes
-thunar-archive-plugin
-thunar-media-tags-plugin 	
+thunar-archive-plugin 	
 thunar-volman
 thunar
 
