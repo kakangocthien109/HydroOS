@@ -7,7 +7,7 @@ b43-fwcutter
 base
 bind-tools
 brltty
-broadcom-wl
+broadcom-wl-dkms
 btrfs-progs
 clonezilla
 crda
@@ -42,7 +42,7 @@ iwd
 jfsutils
 kitty-terminfo
 lftp
-linux
+linux-lts
 linux-atm
 linux-firmware
 livecd-sounds
@@ -92,7 +92,8 @@ termite-terminfo
 testdisk
 tmux
 udftools
-usb_modeswitch# calamares.dependencies
+usb_modeswitch
+#calamares.dependencies
 boost
 cmake
 extra-cmake-modules
@@ -148,7 +149,7 @@ hwinfo
 libburn
 libisofs
 libisoburn
-linux-headers
+linux-lts-headers
 logrotate
 os-prober
 p7zip
@@ -268,7 +269,7 @@ openvpn
 openresolv
 ppp
 pptpclient
-r8168
+r8168-lts
 rp-pppoe
 systemd-resolvconf
 tcpdump
@@ -383,8 +384,7 @@ arc-icon-theme
 gnome-icon-theme
 papirus-icon-theme
 
-###themes
-thunar-archive-plugin 	
+###themes 	
 thunar-volman
 thunar
 
@@ -465,6 +465,13 @@ ghostscript
 gsfonts
 gtk3-print-backends
 gutenprint
+thunar
+thunar-archive-plugin
+thunderbird
+thunderbird-extension-enigmail
+
+thunar-media-tags-plugin
+
 
 
 ###video
