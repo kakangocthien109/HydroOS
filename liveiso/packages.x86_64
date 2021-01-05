@@ -28,6 +28,7 @@ f2fs-tools
 fatresize
 fsarchiver
 gnu-netcat
+grub
 gpart
 gpm
 gptfdisk
@@ -495,7 +496,7 @@ xf86-video-vmware
 #xf86-video-voodoo
 #xf86-video-sisusb
 mesa
-
+blueman
 bluez
 bluez-libs
 bluez-utils
