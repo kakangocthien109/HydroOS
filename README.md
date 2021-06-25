@@ -30,6 +30,7 @@ Hydro is a free and simple Linux distro project, developed by the **Hydro** team
 ### 3. Download mirrors (UPDATING)
    * [Google Drive 1](https://drive.google.com/uc?id=1po26NXqFQ2WLzmtT5Hsb0HCc2zaLLfAn&export=download)
    * [Google Drive 2](https://drive.google.com/uc?id=1IUH0JugvxKl1jcLMcSpEVl2IzXur_cnq&export=download)
+   * [OneDrive 1](https://1drv.ms/u/s!Ahj9QEVQ6zUGfT2v8-uBDNhGOoY?e=cautN9)
 
 ### 4. Contribute
 * You can contribute to our project by fixing bugs and making pull requests on this GitHub page or making some feedback for us to help **Hydro** improve better everyday!
