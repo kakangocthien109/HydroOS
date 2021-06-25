@@ -1,4 +1,6 @@
 # Hydro
+##
+## English version
 ## A free, fast and friendly Linux distro based on Arch Linux and LFS (Linux From Scratch)
 ### 1. What is Hydro?
 Hydro is a free and simple Linux distro project, developed by the **Hydro** team with the support from **Kode Organization**.
@@ -36,3 +38,9 @@ Hydro is a free and simple Linux distro project, developed by the **Hydro** team
      * [HydroOS Facebook Page](https://www.facebook.com/hydroos.dev)
      * [Kode Facebook Page](https://www.facebook.com/kode.page)
      * [KodeSpace Website](https://www.kodelang.dev)
+ 
+##
+## Phiên bản tiếng Việt
+## Một bản phân phối Linux nhanh, nhẹ, miễn phí và thân thiện dựa trên Arch Linux và LFS (Linux From Scratch)
+### 1. Hydro là gì?
+Hydro là 1 bản phân phối Linux mã nguồn mở, được xây dựng bởi team **Hydro** và nhận được sự hỗ trợ từ tổ chức **Kode**. 
