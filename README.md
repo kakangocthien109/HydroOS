@@ -25,7 +25,7 @@ Hydro is a free and simple Linux distro project, developed by the **Hydro** team
   - [ ] Making online installer to decrease the ISO size
 
 ### 3. Download mirrors (UPDATING)
-     * [Google Drive 1](https://drive.google.com/uc?id=1po26NXqFQ2WLzmtT5Hsb0HCc2zaLLfAn&export=download)
+* [Google Drive 1](https://drive.google.com/uc?id=1po26NXqFQ2WLzmtT5Hsb0HCc2zaLLfAn&export=download)
 
 ### 4. Contribute
 * You can contribute to our project by fixing bugs and making pull requests on this GitHub page or making some feedback for us to help **Hydro** improve better everyday!
