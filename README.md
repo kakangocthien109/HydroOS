@@ -1,6 +1,8 @@
-<p align="center">
- <img src="https://2.pik.vn/2021193434ba-7493-4638-ba15-1f9378165789.png" alt="Hydro logo" />
-</p>
+<a href="https://www.facebook.com/hydroos.dev">
+ <p align="center">
+  <img src="https://2.pik.vn/2021193434ba-7493-4638-ba15-1f9378165789.png" alt="Hydro logo" />
+ </p>
+</a>
 
 ## English version
 ## A free, fast and friendly Linux distro based on Arch Linux and LFS (Linux From Scratch)
