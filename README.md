@@ -84,12 +84,12 @@ Hydro là 1 bản phân phối Linux mã nguồn mở, được xây dựng bở
    * [OneDrive 2](https://1drv.ms/u/s!Al9MoH6Uhil7blEZcWcSt0gmhhQ?e=oHjJfs)
 
 ### 4. Đóng góp
-* Bạn có thể đóng góp cho **Hydro** bằng cách test và báo lỗi hoặc sửa lỗi cho 
+* Bạn có thể đóng góp cho **Hydro** bằng cách test và báo lỗi hoặc sửa lỗi và pull trên GitHub repo này.
 
-### 5. Contact us
-  * Everyone who want to ask about this project, making feedback or asking about **Hydro** directly can contact **Kode Organization** via these links:
+### 5. Liên hệ
+  * Nếu bạn muốn hỏi về dự án này hoặc góp ý hay báo lỗi trực tiếp với chúng tôi, bạn có thể liên hệ tổ chức **Kode** qua các link sau:
      * [Kode Discord Server](https://discord.gg/33fmGezE)
-     * [HydroOS Facebook Page](https://www.facebook.com/hydroos.dev)
-     * [Kode Facebook Page](https://www.facebook.com/kode.page)
-     * [KodeSpace Website](https://www.kodelang.dev)
+     * [Trang Facebook của Hydro](https://www.facebook.com/hydroos.dev)
+     * [Trang Facebook của tổ chức Kode](https://www.facebook.com/kode.page)
+     * [Trang chủ KodeSpace](https://www.kodelang.dev)
  
