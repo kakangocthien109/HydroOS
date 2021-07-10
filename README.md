@@ -24,20 +24,20 @@ Hydro is a free and simple Linux distro project, developed by the **Hydro** team
   - [x] Create a complete system with XFCE
   - [x] Include necessary softwares for daily use
   - [x] Include softwares needed for Kode Developer
-  - [ ] Customize interface
+  - [x] Customize interface (basically)
   - [x] Start beta-testing program
-  - [x] Creating a KDE version
-  - [ ] Creating an ARM version
-  - [ ] Creating a seperate version for Kode Developer
-  - [ ] Making online installer to decrease the ISO size
-  - [ ] Changing boot loader from syslinux (default) to GRUB
+  - [x] Create a KDE version
+  - [x] Create an ARM version
+  - [ ] Create a seperate version for Kode Developer
+  - [ ] Make online installer to decrease the ISO size
+  - [ ] Change boot loader from syslinux (default) to GRUB
 
 ### 3. Download mirrors (UPDATING)
-*Any dead link should be reported to **Hydro** team or **Kode Organization** by contacting us or opening issues.*
-   * [Google Drive 1](https://drive.google.com/uc?id=1po26NXqFQ2WLzmtT5Hsb0HCc2zaLLfAn&export=download)
-   * [Google Drive 2](https://drive.google.com/uc?id=1IUH0JugvxKl1jcLMcSpEVl2IzXur_cnq&export=download)
-   * [OneDrive 1](https://1drv.ms/u/s!Ahj9QEVQ6zUGfT2v8-uBDNhGOoY?e=cautN9)
-   * [OneDrive 2](https://1drv.ms/u/s!Al9MoH6Uhil7blEZcWcSt0gmhhQ?e=oHjJfs)
+  * Any dead link should be reported to **Hydro** team or **Kode Organization** by contacting us or opening issues.
+     * [Google Drive 1](https://drive.google.com/uc?id=1po26NXqFQ2WLzmtT5Hsb0HCc2zaLLfAn&export=download)
+     * [Google Drive 2](https://drive.google.com/uc?id=1IUH0JugvxKl1jcLMcSpEVl2IzXur_cnq&export=download)
+     * [OneDrive 1](https://1drv.ms/u/s!Ahj9QEVQ6zUGfT2v8-uBDNhGOoY?e=cautN9)
+     * [OneDrive 2](https://1drv.ms/u/s!Al9MoH6Uhil7blEZcWcSt0gmhhQ?e=oHjJfs)
 
 ### 4. Contribute
 * You can contribute to our project by fixing bugs and making pull requests on this GitHub page or making some feedback for us to help **Hydro** improve better everyday!
@@ -55,7 +55,7 @@ Hydro is a free and simple Linux distro project, developed by the **Hydro** team
 ### 1. Hydro là gì?
 Hydro là 1 bản phân phối Linux mã nguồn mở, được xây dựng bởi team **Hydro** và nhận được sự hỗ trợ từ tổ chức **Kode**. 
 
-* **Hydro** được dựa trên **Arch Linux**, một hệ điều hành cuốn chiếu (rolling) có thể giúp hệ thống của bạn luôn có được cập nhật và bản vá bảo mật mới nhất, và **Linux From Scratch**, 1 dự án giúp tạo ra 1 bản phân phối Linux riêng từ mã nguồn.
+* **Hydro** được dựa trên **Arch Linux**, một hệ điều hành cuốn chiếu (rolling) có thể giúp hệ thống của bạn luôn có được cập nhật và bản vá bảo mật mới nhất, và **LFS (Linux From Scratch)**, 1 dự án giúp tạo ra 1 bản phân phối Linux riêng từ mã nguồn.
 * **Hydro** dùng môi truờng máy tính XFCE, một môi trường nhẹ và tiêu tốn ít tài nguyên.
 * Chúng tôi hy vọng **Hydro** có thể giúp người Việt Nam tiếp cận với hệ điều hành Linux, một hệ điều hành miễn phí, nhanh và có tiềm năng.
 * Mục tiêu của **Hydro**:
@@ -63,14 +63,14 @@ Hydro là 1 bản phân phối Linux mã nguồn mở, được xây dựng bở
 * Tốc độ xử lý **nhanh**
 * Hỗ trợ **miễn phí** 24/7
 * Giao diện người dùng **thân thiện** cho người mới bắt đầu dùng **Linux**, đặc biệt là người Việt
-* Tạo nên 1 cộng đồng **nhiệt huyết, thân thiện*
+* Tạo nên 1 cộng đồng **nhiệt huyết, thân thiện**
 
 
 ### 2. Những thứ cần đạt được trong tương lai:
   - [x] Tạo nên 1 hệ điều hành đầy đủ với XFCE
   - [x] Cài đặt những phần mềm cần thiết phục vụ mục đích thiết yếu
   - [x] Cài đặt những phần mềm cần cho Kode Developer
-  - [ ] Tùy chỉnh giao diện
+  - [x] Tùy chỉnh giao diện cơ bản
   - [x] Khởi động chương trình thử nghiệm phiên bản beta
   - [x] Tạo 1 phiên bản dùng môi trường KDE
   - [ ] Tạo 1 phiên bản hỗ trợ ARM (dành cho điện thoại, máy tính bảng, máy tính dùng Apple M1...)
