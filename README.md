@@ -10,7 +10,7 @@
 Hydro is a free and simple Linux distro project, developed by the **Hydro** team with the support from **Kode Organization**.
 
 * This distro is based on Arch Linux, a rolling distro that can always help your system keep up-to-date with the newest software and security patches, and Linux From Scratch, a project that help us to build a custom distro directly from source code.
-* Hydro use the XFCE Desktop Environment - a lightweight 
+* Hydro uses the XFCE, which is one of the most the lightweight Desktop Environment. 
 * We hope **Hydro** can help Vietnamese people approach Linux, an open-source operating system with many benefits.
 * **Hydro** aims to:
 * Be **easy to use** and a complete OS which can be used as a daily driver
