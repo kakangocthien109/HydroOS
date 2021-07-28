@@ -53,7 +53,7 @@ Hydro is a free and simple Linux distro, developed by the **Hydro OS** team with
 ## Phiên bản tiếng Việt
 ## Một bản phân phối Linux nhanh, nhẹ, miễn phí, và thân thiện dựa trên Arch Linux và LFS (Linux From Scratch)
 ### 1. Hydro OS là gì?
-Hydro OS là 1 bản phân phối Linux mã nguồn mở, được xây dựng bởi team **Hydro** và nhận được sự hỗ trợ từ tổ chức **Kode**. 
+Hydro OS là 1 bản phân phối Linux mã nguồn mở, được xây dựng bởi team **Hydro OS** và nhận được sự hỗ trợ từ tổ chức **Kode**. 
 
 * **Hydro OS** được dựa trên **Arch Linux**, một hệ điều hành rolling có thể giúp hệ thống của bạn luôn có được cập nhật và bản vá bảo mật mới nhất, và **LFS (Linux From Scratch)**, 1 dự án giúp tạo ra 1 bản phân phối Linux riêng từ mã nguồn.
 * **Hydro OS** dùng môi truờng máy tính XFCE, một môi trường nhẹ và tiêu tốn ít tài nguyên.
