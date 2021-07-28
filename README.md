@@ -34,7 +34,7 @@ Hydro is a free and simple Linux distro, developed by the **Hydro OS** team with
 
 ### 3. Download mirrors (UPDATING)
   * Any dead link should be reported to **Hydro OS** team or **Kode Organization** by contacting us or opening issues.
-     * [Google Drive 1](https://drive.google.com/uc?id=1po26NXqFQ2WLzmtT5Hsb0HCc2zaLLfAn&export=download)
+     * [Google Drive 1](https://drive.google.com/u/0/uc?id=1uX7-tEH43M9CDekk1sS4tQfnlzB0wggZ&export=download)
      * [Google Drive 2](https://drive.google.com/uc?id=1IUH0JugvxKl1jcLMcSpEVl2IzXur_cnq&export=download)
      * [OneDrive 1](https://1drv.ms/u/s!Ahj9QEVQ6zUGfT2v8-uBDNhGOoY?e=cautN9)
      * [OneDrive 2](https://1drv.ms/u/s!Al9MoH6Uhil7blEZcWcSt0gmhhQ?e=oHjJfs)
@@ -80,7 +80,7 @@ Hydro OS là 1 bản phân phối Linux mã nguồn mở, được xây dựng b
 
 ### 3. Link tải Hydro OS (ĐANG CẬP NHẬT)
 *Những link nào không dùng được xin hãy báo cáo cho team **Hydro OS** hoặc tổ chức **Kode** hoặc mở issue trên GitHub. Chúng tôi sẽ xử lý vấn đề nhanh nhất có thể.*
-   * [Google Drive 1](https://drive.google.com/uc?id=1po26NXqFQ2WLzmtT5Hsb0HCc2zaLLfAn&export=download)
+   * [Google Drive 1](https://drive.google.com/u/0/uc?id=1uX7-tEH43M9CDekk1sS4tQfnlzB0wggZ&export=download)
    * [Google Drive 2](https://drive.google.com/uc?id=1IUH0JugvxKl1jcLMcSpEVl2IzXur_cnq&export=download)
    * [OneDrive 1](https://1drv.ms/u/s!Ahj9QEVQ6zUGfT2v8-uBDNhGOoY?e=cautN9)
    * [OneDrive 2](https://1drv.ms/u/s!Al9MoH6Uhil7blEZcWcSt0gmhhQ?e=oHjJfs)
